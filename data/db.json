@@ -1,0 +1,23 @@
+{
+    "Blogs":[
+        {
+            "title": "My First Blog Post",
+            "body": "This is the content of my first blog post. I'm excited to share my thoughts and experiences with the world!",
+            "author": "John Doe",
+            "id": 1
+        }
+        ,
+        {
+            "title": "Exploring the World of Coding",
+            "body": "Coding is a fascinating journey. In this post, I will share some of my favorite coding resources and tips.",
+            "author": "Jane Smith",
+            "id": 2
+        },
+        {
+            "title": "Travel Adventures",
+            "body": "Join me as I recount my recent travels to beautiful destinations around the globe.",
+            "author": "Alice Johnson",
+            "id": 3
+        }
+    ]
+}
