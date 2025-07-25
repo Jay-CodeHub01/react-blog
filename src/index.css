@@ -104,3 +104,29 @@
   border-radius: 8px;
   cursor: pointer;
 }
+
+/* NotFound  */
+
+.not-found{
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.not-found h2 {
+  font-size: 24px;
+  color: #f1356d;
+  margin-bottom: 20px;
+}
+.not-found p {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 20px;
+}
+.not-found a {
+  text-decoration: none;
+  font-weight: bold;
+}
+.not-found a:hover {
+  text-decoration: underline;
+}
