@@ -64,6 +64,15 @@
   margin: 16px 0px;
 }
 
+.BlogsDetails button{
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
 /* create new blog form */
 .create {
   max-width: 400px;
