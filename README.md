@@ -1,49 +1,58 @@
-# 📝 React Blog Website
+# 📝 Local-Blog
 
-A modern and responsive blog application built using **React**. This project is currently under development (50% complete) and aims to deliver a clean, user-friendly blogging platform.
-
----
-
-## 📸 Preview
-> _Add a screenshot here (optional but recommended)_  
-> Example:
-> ![App Screenshot](./screenshot.png)
+A modern, minimal React-based blog website where users can read and add blogs. This project was built for learning, portfolio, and practical frontend development experience.
 
 ---
 
 ## 🚀 Features
 
-- 🔗 Dynamic routing with React Router
-- 🧱 Modular and reusable components
-- 🖼️ Beautiful and responsive UI
-- 📝 Blog posts rendered from JSON/Markdown
-- 🌓 Light/Dark mode toggle (coming soon)
-- ✍️ Blog post creation form (coming soon)
+- 📰 View a list of blogs
+- 🔍 View blog details
+- ✍️ Add new blog posts and also delete blog
+- ⚡ React Router for navigation
+- 🎯 Fully responsive UI
 
 ---
 
-## 🔧 Tech Stack
+## 📸 Screenshots
 
-| Technology | Description |
-|------------|-------------|
-| React      | Frontend Library |
-| React Router | Page Navigation |
-| Tailwind CSS (optional) | Styling |
-| Markdown or JSON | Blog Content Format |
+### 🏠 Homepage
+![Homepage](./screenshots/HomePage.png)
+
+### 📄 Blog Detail
+![Blog Detail](./screenshots/BlogDetailPage.png)
+
+### 📄 Blog Detail
+![Add Blog](./screenshots/AddBlogPage.png)
 
 ---
 
-## 📦 Installation
+## 🛠️ Tech Stack
+
+- ⚛️ **React JS**
+- 🧭 **React Router**
+- 💻 **LocalStorage** or JSON for temporary data
+
+---
+
+## 🧑‍💻 Getting Started
 
 ```bash
 # Clone the repository
 git clone https://github.com/your-username/react-blog.git
 
 # Navigate into the folder
-cd react-blog
+cd local-blog
 
 # Install dependencies
 npm install
 
 # Start the development server
 npm start
+
+# for data
+1. add new terminal on VS code 
+2. run : npx json-server --watch data/db.json --port 8000
+
+🙋‍♂️ Author
+Made with ❤️ by Jay
